@@ -17,8 +17,7 @@ const Header = () => {
         <header className="bg-gray-900 fixed w-full z-10">
             <div className="container mx-auto flex items-center justify-between p-4">
                 <Link to="/" className="flex items-center">
-                    <img src={mainLogo} alt="Logo" className="h-16 mr-2" />
-                    <span className="text-white text-lg font-semibold">Samridhi's App</span>
+                <span className="text-white text-lg font-semibold">Samridhi's App</span>
                 </Link>
                 <nav className="flex items-center space-x-4">
                     {user && (
